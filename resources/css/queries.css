@@ -1,0 +1,151 @@
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+  ul.nav-footer li {
+    margin-right: 23px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+  }
+  h3 {
+    font-size: 100%;
+    margin-bottom: 20px;
+  }
+  .steps-box:first-child {
+    margin-top: 20px;
+  }
+  .steps-box:last-child {
+    margin-top: 45px;
+  }
+  .btn-app img {
+    height: 40px;
+  }
+  .section-city .box {
+    font-size: 80%;
+  }
+  ul.plan-price-features {
+    padding: 5px;
+  }
+  .plan-box {
+    width: 100%;
+  }
+  ul.nav-footer li {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  ul.nav-footer li a:link,
+  ul.nav-footer li a:visited,
+  ul.social-icons-footer li a:link,
+  ul.social-icons-footer li a:visited {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col {
+    width: 100%;
+    margin: 0% 0 1% 0%;
+  }
+  body {
+    font-size: 16px;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .long-copy {
+    width: 100%;
+  }
+  .steps-box:first-child {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .works-step div {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 130%;
+  }
+  section {
+    padding: 50px 0;
+  }
+  cite img {
+    width: 40px;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .works-step {
+    margin-bottom: 30px;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  ul.social-icons-footer {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .app-screen {
+    width: 35%;
+  }
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("icon"). Show the link that contains should open and close the topnav (.icon) */
+  .main-nav li:not(:first-child){display: none;}
+  .main-nav li.icon {
+    float: right;
+    display: block;
+    margin-right: 40px;
+    font-size: 200%;
+    border-bottom: none;
+
+  }
+
+
+/* The "responsive" class is added to the main-nav with JavaScript when the user clicks on the icon. This class makes the main-nav look good on small screens (display the links vertically instead of horizontally) */
+  .main-nav.responsive {position: relative;}
+  .main-nav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .main-nav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-right:20px;
+  }
+
+
+@media only screen and (max-width: 480px) {
+  .contact-form {
+    width: 90%;
+  }
+  h2 {
+    font-size: 140%;
+  }
+  section {
+    padding: 30px 0;
+  }
+}
